@@ -1,0 +1,167 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Web platform</title>
+        <link rel="stylesheet" href="build/tailwind.css">
+    </head>
+
+    <body class="bg-gray-100 h-full text-gray-600 flex flex-col">
+        <!-- CABECERA -->
+        <header class="flex items-center justify-between px-4 py-3 bg-gray-900">
+            <div>
+                <h3 class="text-white">Bootstrap<strong>Dashboard</strong> <i class="fas fa-stream"></i></h3>
+            </div>
+
+            <div class="flex items-center">
+                <button class="h-8 w-8 text-gray-500" type="button"><i class="fas fa-search"></i></button>
+                &nbsp;&nbsp;
+                <button class="h-8 w-8 text-gray-500" type="button"><i class="fas fa-bell"></i></button>
+                &nbsp;&nbsp;
+                <button class="h-8 w-8 text-gray-500" type="button"><i class="fas fa-envelope-square"></i></button>
+                &nbsp;&nbsp;
+                <button class="text-gray-500" type="button">Logout <i class="fas fa-sign-out-alt"></i></button>
+            </div>
+        </header>
+
+        <div class="flex">
+            <!-- SIDEBAR -->
+            <div class="bg-white p-8 w-64 border">
+                <div class="flex-1">
+                    <img class="w-12 h-12 rounded-full float-left" src="./img/aracely.jpg" alt="user">
+                    <h3 class="text-center text-gray-900 font-bold">Mark Stephen</h3>
+                    <h5 class="text-center text-gray-500">Web Designer</h5>
+                </div>
+                    <p class="p-6 text-gray-500 uppercase">main</p>
+                <ul>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-home"></i>&nbsp;Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-list-ol"></i>&nbsp;Dropdown
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-table"></i>&nbsp;Tables
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-poll"></i>&nbsp;Charts
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-poll-h"></i>&nbsp;Forms
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-share"></i>&nbsp;Login Page
+                        </a>
+                    </li>
+                </ul>
+
+                <p class="p-6 text-gray-500 uppercase">extras</p>
+
+                <ul>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-share"></i>&nbsp;Demo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-comment-alt"></i>&nbsp;Demo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-envelope"></i>&nbsp;Demo
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-gray-600 flex items-center py-3 rounded hover:bg-gray-200">
+                            <i class="fas fa-images"></i>&nbsp;Demo
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- CONTENIDO -->
+            <div class="flex-1 md:mt-1">
+                <div class="bg-white p-2 shadow text-xl text-white">
+                    <h1 class="text-2xl text-gray-900 font-bold">Dashboard</h1>
+                </div>
+                <div class="flex flex-wrap">
+                    <div class="w-full h-full p-8">
+                        <div class="bg-white border rounded shadow p-8">
+                            <div class="flex items-center">
+                                <div class="rounded p-8"><i class="fa fa-user"></i></div>
+                                <div class="flex-1 text-center">
+                                    <h5 class="text-gray-500 flex-1">New Clients</h5>
+                                    <h3 class="text-gray-900 font-bold text-3xl flex-1">25</h3>
+                                </div>
+
+                                <div class="rounded p-3"><i class="fas fa-poll-h"></i></div>
+                                <div class="flex-1 text-center">
+                                    <h5 class="text-gray-500">Work Orders</h5>
+                                    <h3 class="text-gray-900 font-bold text-3xl">70</h3>
+                                </div>
+
+                                <div class="rounded p-3"><i class="fas fa-newspaper"></i></div>
+                                <div class="flex-1 text-center">
+                                    <h5 class="text-gray-500">New Invoices</h5>
+                                    <h3 class="text-gray-900 font-bold text-3xl">44</h3>
+                                </div>
+
+                                <div class="rounded p-3"><i class="fas fa-folder-open"></i></div>
+                                <div class="flex-1 text-center">
+                                    <h5 class="text-gray-500">Open Cases</h5>
+                                    <h3 class="text-gray-900 font-bold text-3xl">35</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex flex-wrap">
+                                <div class="w-auto "></div>
+                                    <div class="bg-white border rounded shadow p-8">
+                                        <div class="flex items-center">
+                                            <div class="rounded p-8"><i class="fa fa-server"></i></div>
+                                            <div class="flex-1 text-center">
+                                                <h5 class="text-gray-500 flex-1">APLICATIONS</h5>
+                                                <h3 class="text-gray-900 font-bold text-3xl flex-1">234</h3>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            
+
+                                <div class="flex flex-wrap">
+                                        <div class="w-auto "></div>
+                                            <div class="bg-white border rounded shadow p-8">
+                                                <div class="flex items-center">
+                                                    <div class="rounded p-8"><i class="fa fa-braille"></i></div>
+                                                    <div class="flex-1 text-center">
+                                                        <h5 class="text-gray-500 flex-1">INTERVIEWS</h5>
+                                                        <h3 class="text-gray-900 font-bold text-3xl flex-1">152</h3>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+    <script src="https://kit.fontawesome.com/208b59d6ea.js" crossorigin="anonymous"></script>
+
+</html>
